@@ -3,7 +3,7 @@
 rm -rf .tmp/ || true
 
 TAG_VERSION="v3.6.0.b10"
-IOS_URL="https://download.videolan.org/pub/cocoapods/unstable/MobileVLCKit-3.6.0b10-615f96dc-4733d1cc.tar.xz"
+IOS_URL="https://download.videolan.org/pub/cocoapods/unstable/MobileVLCKit-3.6.1b1-8e652244-ac310b4b.tar.xz"
 MACOS_URL="https://download.videolan.org/pub/cocoapods/unstable/VLCKit-3.6.0b10-615f96dc-4733d1cc.tar.xz"
 TVOS_URL="https://download.videolan.org/cocoapods/unstable/TVVLCKit-3.6.0b10-615f96dc-4733d1cc.tar.xz"
 
