@@ -42,7 +42,7 @@ ditto -c -k --sequesterRsrc --keepParent ".tmp/VLCKit-all.xcframework" ".tmp/VLC
 
 #Update package file
 PACKAGE_HASH=$(sha256sum ".tmp/VLCKit-all.xcframework.zip" | awk '{ print $1 }')
-PACKAGE_STRING="Target.binaryTarget(name: \"VLCKit-all\", url: \"https:\/\/github.com\/g-mrll\/hl-vlckit-ios-spm\/releases\/download\/latest\/VLCKit-all.xcframework.zip\", checksum: \"$PACKAGE_HASH\")"
+PACKAGE_STRING="Target.binaryTarget(name: \"VLCKit-all\", url: \"https:\/\/github.com\/g-mrll\/hl-vlckit-ios-spm\/releases\/download\/v1.0.0\/VLCKit-all.xcframework.zip\", checksum: \"$PACKAGE_HASH\")"
 echo "Changing package definition for xcframework with hash $PACKAGE_HASH"
 sed -i '' -e "s/let vlcBinary.*/let vlcBinary = $PACKAGE_STRING/" Package.swift
 
