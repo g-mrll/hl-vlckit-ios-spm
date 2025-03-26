@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let vlcBinary = Target.binaryTarget(name: "VLCKit", url: "https://github.com/g-mrll/hl-vlckit-ios-spm/releases/download/v4.0.5/VLCKit.xcframework.zip", checksum: "f21d2198d6f37ec0f86dc59133b55c37c8b5e05992b658e6931bca94d600e458")
+let vlcBinary = Target.binaryTarget(name: "VLCKit", url: "https://github.com/g-mrll/hl-vlckit-ios-spm/releases/download/v4.0.6/VLCKit.xcframework.zip", checksum: "c86c605f5dbce1b7167a7958e31d9d899b5b994274cb01facb9f6e3c74984efb")
 
 let package = Package(
     name: "vlckit-spm",
