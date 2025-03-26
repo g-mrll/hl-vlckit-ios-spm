@@ -3,7 +3,7 @@
 
 _TAG_VERSION="${1}";
 
-IOS_URL="https://download.videolan.org/pub/cocoapods/unstable/VLCKit-4.0.0a9-a3480636-ba880a0b.tar.xz"
+IOS_URL="https://download.videolan.org/pub/cocoapods/unstable/VLCKit-4.0.0a10-d962e05c-17860384.tar.xz"
 
 rm -rf .tmp/ || true
 mkdir .tmp/
